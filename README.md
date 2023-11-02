@@ -1,38 +1,27 @@
-# create-svelte
+# SvelteKit advice generator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[![Screenshot of the app](./static/screen-shot.png)](https://svelte-get-advice.vercel.app/)
 
-## Creating a project
+## Description
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is a Sveltekit app that generates a random advice using the [adviceslip api](https://api.adviceslip.com/). This was a react project and I just rebuild the app with Sveltekit for fun 🥳, you can see the react project [here](https://github.com/SamirAhmad5445/react-advice-generator).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+For this project, I used the following technologies:
 
-## Developing
+- [SvelteKit](https://kit.svelte.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Setup
 
-```bash
-npm run dev
+To run this project, follow these steps:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. Clone this project
 
-## Building
+2. `npm install` to install the dependencies and node_modules.
 
-To create a production version of your app:
+3. `npm run dev` to start the application.
+4. to make your changes go to `./src/routes/+page.svelte`.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+You can check out the final result of this project [here](https://svelte-get-advice.vercel.app/).
